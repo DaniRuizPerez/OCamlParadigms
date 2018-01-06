@@ -9,32 +9,22 @@ let tl = function
 	| _::t -> t;;
 
 
-let rec length = function
-	[] -> 0	
-	| _::t -> 1 + length t;;
+let length l =
+	let rec aux a l = match l with
+		| [] -> a
+		| _ :: t -> aux (a + 1) t
+	in aux 0 l;;
 
 (*
 let rec rev = function
 	[] -> []
-	| h::t -> List.append (rev t) [h];;
-
-
+	| h::t -> let l = rev t in l::h;;
+		
+*)
 let rec nth l n = match (l,n) with 
      ([],_) -> raise (Failure "nth")
    | (h::_,0) -> h
    | (_::t,n) -> nth t (n-1);;
-
-*)
-let rec nth = function
-     ([],_) -> raise (Failure "nth")
-   | (h::_,0) -> h
-   | (_::t,n) -> nth (t,(n-1));;
-
-
-let rec nth = function
-     [] -> (function _ -> raise (Failure "nth"))
-   | h::t -> (function 0 -> h
-                    | n -> nth t (n-1));;
 
 
 let rec append l1 l2 = match (l1,l2) with
@@ -104,7 +94,10 @@ let rec find f = function
 
 let rec filter f = function
 	[] -> []
-	| h::t -> if f h then h::(filter f t) else filter f t;;
+	| h::t -> let l = filter f t in
+				if f h then h::l
+				else l;;
+
 
 let find_all = filter;;
 
@@ -170,5 +163,9 @@ let rec natural_join l1 l2 = match l1,l2 with
 	[],_ | _,[] -> []
 	| (a,c)::t1, (b,d)::t2 -> let resto = natural_join [(a,c)] t2 @ natural_join t1 l2 in
 										if a = b then (a,c,d)::resto else resto;;	
+
+
+
+
 
 
