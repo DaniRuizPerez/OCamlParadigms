@@ -3,7 +3,7 @@ Programming Paradigms (OCaml)
 
 This is a collection of OCaml projects that I developed for the Programming Paradigms course in the sophomore year of my BSc in computer science at UDC (Spain). 
 
-- **Recursive list implementation** and operations over the list (length, concat, append, join, combine...)
+- **[LICENSE](https://github.com/DaniRuizPerez/Ocaml/blob/master/LICENSE)Recursive list implementation** and operations over the list (length, concat, append, join, combine...)
 - **Tail recursion sorting** analysis of given functions 
 - **Object oriented dynamic array** with the following methods:
 	- addLast(element)
@@ -26,4 +26,4 @@ Contact [Daniel Ruiz Perez](mailto:druiz072@fiu.edu) for requests, bug reports a
 
 ## License
 
-The software in this repository is available under the GNU General Public License, version 3. See the [LICENSE](https://github.com/DaniRuizPerez/AutomaticReasoning/blob/master/LICENSE) file for more information.
+The software in this repository is available under the GNU General Public License, version 3. See the [LICENSE](https://github.com/DaniRuizPerez/Ocaml/blob/master/LICENSE) file for more information.
