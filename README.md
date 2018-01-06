@@ -11,7 +11,6 @@ Tail recursion
 
 - **Recursive list implementation** and operations over the list (length, concat, append, join, combine...)
 - **Tail recursion sorting** analysis of given functions 
-- **World of blocks solver**. Given a starting configuration and a goal, it efficiently produces the set of moves (up, down, left, right, grab, drop) that transform the starting configuration into the finishing configuration. Also a given (by the professor) .tcl script provides a graphical interface that animates the sequence. 
 - **Object oriented dynamic array** with the following methods:
 	- addLast(element)
 	- add(element,position)
@@ -21,6 +20,10 @@ Tail recursion
 	- index(position)
 	- toString()
 	- toStringBuffer()
+- **World of blocks solver**. Given a starting configuration and a goal, it efficiently produces the set of moves (up, down, left, right, grab, drop) that transform the starting configuration into the finishing configuration. Also a given (by the professor) .tcl script provides a graphical interface that animates the sequence. 
+<p align="center">
+<img src="https://github.com/DaniRuizPerez/Ocaml/blob/master/block.PNG" width="500">
+</p>
 
 ## Contact
 
