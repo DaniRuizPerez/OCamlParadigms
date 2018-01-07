@@ -1,7 +1,7 @@
 Programming Paradigms (OCaml)
 ============
 
-This is a collection of OCaml projects that I developed for the Programming Paradigms course in the sophomore year of my BSc in computer science at UDC (Spain). 
+This is a collection of OCaml projects (Tail recursion, Object Oriented, Problem solving....) that I developed for the Programming Paradigms course in the sophomore year of my BSc in computer science at UDC (Spain). 
 
 - **[Recursive list implementation](https://github.com/DaniRuizPerez/Ocaml/blob/master/MyList.ml)** and operations over the list (length, concat, append, join, combine...)
 - **[Tail recursion sorting](https://github.com/DaniRuizPerez/Ocaml/blob/master/TailRecursion.ml)** analysis of given functions 
