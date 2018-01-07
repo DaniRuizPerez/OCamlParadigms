@@ -3,9 +3,9 @@ Programming Paradigms (OCaml)
 
 This is a collection of OCaml projects that I developed for the Programming Paradigms course in the sophomore year of my BSc in computer science at UDC (Spain). 
 
-- **[LICENSE](https://github.com/DaniRuizPerez/Ocaml/blob/master/LICENSE)Recursive list implementation** and operations over the list (length, concat, append, join, combine...)
-- **Tail recursion sorting** analysis of given functions 
-- **Object oriented dynamic array** with the following methods:
+- **[Recursive list implementation](https://github.com/DaniRuizPerez/Ocaml/blob/master/MyList.ml)** and operations over the list (length, concat, append, join, combine...)
+- **[Tail recursion sorting](https://github.com/DaniRuizPerez/Ocaml/blob/master/TailRecursion.ml)** analysis of given functions 
+- **[Object oriented dynamic array](https://github.com/DaniRuizPerez/Ocaml/blob/master/DynamicArray.ml)** with the following methods:
 	- addLast(element)
 	- add(element,position)
 	- overwrite(element,position)
@@ -14,7 +14,8 @@ This is a collection of OCaml projects that I developed for the Programming Para
 	- index(position)
 	- toString()
 	- toStringBuffer()
-- **World of blocks solver**. Given a starting configuration and a goal, it efficiently produces the set of moves (up, down, left, right, grab, drop) that transform the starting configuration into the finishing configuration. Also a given (by the professor) .tcl script provides a graphical interface that animates the sequence. 
+- **[World of blocks solver](https://github.com/DaniRuizPerez/Ocaml/blob/master/bloques.ml)**. Given a starting configuration and a goal, it efficiently produces the set of moves (up, down, left, right, grab, drop) that transform the starting configuration into the finishing configuration. Also a given (by the professor) [.tcl](https://github.com/DaniRuizPerez/Ocaml/blob/master/blq.tcl) script provides a graphical interface that animates the sequence. 
+
 <p align="center">
 <img src="https://github.com/DaniRuizPerez/Ocaml/blob/master/block.PNG" width="500">
 </p>
